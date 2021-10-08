@@ -9,9 +9,9 @@ module.exports = class virusTotal {
         this.client = client;
 
         this.default_data = {
-            compressed: true, // sets 'Accept-Encoding' to 'gzip,deflate'
-            follow_max: 5, // follow up to five redirects
-            rejectUnauthorized: true, // verify SSL certificate
+            compressed: true, 
+            follow_max: 5, 
+            rejectUnauthorized: true, 
             multipart: true,
             timeout: 2 * 60 * 1000,
             user_agent: 'virustotal-api'
